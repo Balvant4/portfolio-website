@@ -1,34 +1,58 @@
+import {
+  css,
+  git,
+  html,
+  java,
+  javascript,
+  nodejs,
+  php,
+  reactjs,
+  redux,
+  tailwind,
+  typescript,
+
+  //   social media
+  github,
+  instagram,
+  linkedin,
+
+  //images
+  project1,
+  project2,
+  project3,
+} from "../src/assets/index";
+
 export const social = [
   {
     link: "https://github.com/Balvant4",
-    image: "public/socila/github.png",
+    image: github,
   },
   {
     link: "https://www.linkedin.com/in/balvant-kumar-07108227a",
-    image: "public/socila/linkedin.png",
+    image: instagram,
   },
   {
     link: "https://instagram.com/balvantkushwaha_?igshid=OGQ5ZDc2ODk2ZA==",
-    image: "public/socila/instagram.png",
+    image: linkedin,
   },
 ];
 
 export const project = [
   {
     link: "https://food-website-lilac.vercel.app/",
-    image: "public/images/project0.png",
+    image: project1,
     header: "Food Website",
     desc: "React, React Hook, React Router Dom Tailwind-css",
   },
   {
     link: "https://coffee-shop-six-umber.vercel.app/",
-    image: "public/images/project3.png",
+    image: project3,
     header: "Coffee-shop",
     desc: "React, React Hook, React Router Dom Tailwind-css Aos",
   },
   {
     link: "https://jaiswal-traders.vercel.app/",
-    image: "public/images/project2.png",
+    image: project2,
     header: "Jaiswal Traders",
     desc: "React, React Hook, React Router Dom Tailwind-css",
   },
@@ -37,45 +61,45 @@ export const project = [
 export const Fronteddata = [
   {
     text: "HTMl",
-    image: "src/assets/tech/html.png",
+    image: html,
   },
   {
     text: "CSS",
-    image: "src/assets/tech/css.png",
+    image: css,
   },
   {
     text: "Javascript",
-    image: "src/assets/tech/javascript.png",
+    image: javascript,
   },
   {
     text: "Tailwind",
-    image: "src/assets/tech/tailwind.png",
+    image: tailwind,
   },
   {
     text: "React Js",
-    image: "src/assets/tech/reactjs.png",
+    image: reactjs,
   },
   {
     text: "Redux",
-    image: "src/assets/tech/redux.png",
+    image: redux,
   },
 ];
 
 export const Backenddata = [
   {
     text: "Node Js",
-    image: "src/assets/tech/nodejs.png",
+    image: nodejs,
   },
   {
     text: "Javascript",
-    image: "src/assets/tech/javascript.png",
+    image: javascript,
   },
   {
     text: "Java",
-    image: "src/assets/tech/java.png",
+    image: java,
   },
   {
     text: "PHP",
-    image: "src/assets/tech/php.png",
+    image: php,
   },
 ];
