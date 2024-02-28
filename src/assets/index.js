@@ -9,6 +9,7 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import computerimg from "../../public/images/hero-computer.jpg";
 
 // social media
 import github from "../../public/socila/github.png";
@@ -42,4 +43,5 @@ export {
   project1,
   project2,
   project3,
+  computerimg,
 };
